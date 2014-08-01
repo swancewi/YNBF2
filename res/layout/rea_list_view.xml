@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView
+        android:id="@+id/iconREA"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:paddingLeft="0dip"
+        android:src="@drawable/ic_launcher" />
+ 
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iconREA"
+        android:layout_toRightOf="@+id/iconREA"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+ 
+    <TextView
+        android:id="@+id/phoneNumberText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameText"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dip"
+        android:layout_toRightOf="@id/iconREA"
+        android:gravity="right"
+        android:textSize="16dp"
+        android:textStyle="italic" />
+
+</RelativeLayout>
